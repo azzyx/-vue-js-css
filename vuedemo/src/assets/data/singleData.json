@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"name": "1.Global",
+		"content": "Global对象是ECMAScript中最特别的一个对象，因为不管从什么角度上看，这个对象都是不存在的。Global不仅有方法还有属性。",
+		"function": "encodeURI()、encodeURIComponent()、decodeURI()、decodeURIComponent()、eval()",
+		"say": "我是ECMAScript中的终极兜底对象，不属于任何对象的属性和方法，最终都是我的属性和方法，事实上没有全局函数或全局变量，所有在全局定义的函数和属性，都是我的属性，例如Number的isNaN()、isFinite()、parseInt()、parseFloat()（这些方法在es6的时候都放到了Number对象上了哟~）。",
+		"children": [
+			{
+				"id": "11",
+				"name": "encodeURI()、encodeURIComponent()URI编码方法",
+				"say": "我们可以对URI（Uinform Resource Identifiers，通用资源标识符）进行编码，以便发送给浏览器；我们可以使用utf-8编码替换无效的字符，从而让浏览器理解和接受。我们的区别是：encodeURI()不会对本身属于URI的特殊字符进行编码（冒号、斜杠、问号、井号）会把空格转换成%20，而encodeURIComponent()会对他发现的任何非标准字符进行编码。"
+			},
+			{
+				"id": "12",
+				"name": "decodeURI()、decodeURIComponent()UIR解码方法",
+				"say": "我们解码的分别对应的的是通过encodeURI()、encodeURIComponent()编码的，只要他们能够编码的，我们两个都能相应的进行解码哟~~"
+			},
+			{
+				"id": "13",
+				"name": "evla()",
+				"say": "哈哈，我算是ECMAScript中最强大的一个方法啦。我是一个完整的ECMScript解析器，我只接受一个参数：既要执行的ECMAScript字符串。我会将传入的参数解析为实际ECMAScript语句来解析，然后把执行结果插入到原来的位置。在我这里创建的任何变量或者函数都不会被提升，因为在解析代码的时候，他们都被包含在一个字符串中；他们只会在eval()执行的时候创建哟~"
+			},
+			{
+				"id": "14",
+				"name": "Global对象的属性",
+				"say": "我还包含一些属性哟，比如Undefined和NaN、Infinity都是我的属性，以及原生引用类型的构造函数，如Object和Function都是我的属性。记住哟无论是在严格模式下还是给严格模式下都不行给Ubdefined、NaN和Infinity赋值哟，这样做是会报错的~~"
+			},
+			{
+				"id": "15",
+				"name": "window对象",
+				"say": "虽然ECMAScript么有指出如何直接访问Global对象，但是Web浏览器都是将这个全局对象作为我（window对象）的一部分加以实现哟~所以在全局作用域中声明的所有的变量和函数，就都成了我（window对象）的属性^_^~"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "2.Math",
+		"content": "ECMAScript还为保存数学公式和信息提供了一个公共的位置，即Math对象。",
+		"function": "Math.min()、Math.max()、Math.ceil()、Math.floor()、Math.round()、Math.random()",
+		"say": 0,
+		"children": [
+			{
+				"id": "21",
+				"name": "Math.min()、Math.max()",
+				"say": "Math.min()我是确定一组数值中最小值，Math.max()我确定一组数值中最大值，我们都可以接收任意多个参数。如果要得到一组数组中最大或最小值，可以这么做 var vals = [1,2,3,4,45,465,66]; var max = Math.max.apply(Math,vals);"
+			},
+			{
+				"id": "22",
+				"name": "Math.ceil()、Math.floor()、Math.round()、Math.random()",
+				"say": "Math.ceil()我是向上舍入（ceil是天花板的意思）、Math.floor()向下舍入、Math.round()四舍五入、Math.random()返回介于0-1之间一个随机数，不包括0和1哟~"
+			}
+		],
+		"es6": "我也新增了一些方法，Math.trunc()用于去除一个小数的部分，还有一些方法和数学中的方法很类似，这里就不去累述了~"
+	}
+]

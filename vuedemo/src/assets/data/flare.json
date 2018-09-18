@@ -1,0 +1,97 @@
+{
+ "name": "数据类型",
+ "children": [{
+      "name": "基本类型",
+      "children": [
+       {
+        "id": 1,
+        "name": "Boolean"
+       },
+       {
+        "id": 2,
+        "name": "Undefined"
+       },
+       {
+        "id": 3,
+        "name": "Null"
+       },
+       {
+        "id": 4,
+        "name": "String"
+       },
+       {
+        "id": 5,
+        "name": "Number"
+       }
+      ]
+    },
+    {
+      "name": "引用类型",
+      "children": [
+       {
+        "id": 6,
+        "name": "Array"
+       },
+       {
+        "id": 7,
+        "name": "Object"
+       },
+       {
+        "id": 8,
+        "name": "RegExp"
+       },
+       {
+        "id": 9,
+        "name": "Date"
+       },
+       {
+        "id": 10,
+        "name": "Function"
+       }
+      ]
+    },
+    {
+      "name": "基本包装类型",
+      "children": [
+        {
+          "id": 11,
+          "name": "Boolean"
+        },
+        {
+          "id": 12,
+          "name": "Number"
+        },
+        {
+          "id": 13,
+          "name": "String"
+        }
+      ]
+    },
+    {
+      "name": "单体内置对象",
+      "children": [
+       {
+        "name": "Math",
+        "id": 14
+       },
+       {
+        "name": "Global",
+        "id": 15
+       }
+      ]
+    },
+    {
+      "name": "es6新增",
+      "children": [
+        {
+          "name": "Set",
+          "id": 16
+        },
+        {
+          "name": "Map",
+          "id": 17
+        }
+      ]
+    }
+  ]
+}

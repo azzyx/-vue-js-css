@@ -1,0 +1,108 @@
+[
+	{
+		"id": 1,
+		"name": "1.Array",
+		"content": "ECMAScript中的数组和其他语言中的数组不一样，ECMAScript中的数组可以保存任何类型的数据。创建数组的方法有两种，new Array()（构造函数的方法，其中new是可以省略的~）和数组字面量来创建。",
+		"function": "Array.isArray()、join()、push()、pop()、shift()、unshift()、reverse()、sort()、concat()、slice()、splice()、indexOf()、lastIndexOf()、every()、filter()、forEach()、map()、some()、reduce()、reduceRight()",
+		"say":"你可以使用Array.isArray()来判断这个变量是不是数组，还有19个方法你可以来使用~",
+		"children": [
+			{}
+		],
+		"es6": "新增10个方法，用来处理数组。Array.from()方法用于将两类对象转换为真正的数组：类似数组的对象（array-like object）和可遍历（iterable）对象；Array.of()用于将一组值转换为数组；数组实例方法copyWithin()、find()、findIndex()、fill()、keys()、values()、entries()、includes()；空位的处理forEach()、filter()、reduce()、every()、some()会跳过空位，map()会跳过空位但是会保留这个值，join()和toString()会把空位转换为undefined，但是会把undefined和null转为空位，es6明确将空位转换为undefinedArray.from()会把空位转换为undefinedes6和es5对数组的空位处理是不一样的，所以避免出现空位。"
+	},
+	{
+		"id": 2,
+		"name": "2.Object",
+		"content": "ECMAScript中的Object是无序属性的集合，其属性值可以包含基本值、对象或者函数。访问对象的属性可以通过点和方括号来获取，一般推荐使用点来获取，当属性中包含特殊字符的时候使用方括号来获取，在使用方括号来获取的时候应该将要访问的属性以字符串的形式放在括号中，方括号可以使用变量来访问属性，除非属性是要用过变量来访问的，否则建议使用点来访问属性。",
+		"function": "hasOwnProperty(propertyName)，isPropertyOf()、propertyIsEnumerable(propertyName)、toLocaleString()、toString()、valueOf()、Object.defineProperty()、Object.defineProperties()、Object.getOwnPropertyDescriptor()",
+		"say": "我的每个实例不仅具有上面的方法，还具有下面的属性：Constructor",
+		"children": [
+			{
+				"id": "21",
+				"name": "hasOwnProperty()",
+				"say": "我是用来检测你给我的属性是不是在对象的实例中（而不是在实例的原型中），参数的名字必须是字符串。o.hasOwnProperty('name')"
+			},
+			{
+				"id": "22",
+				"name": "isPropertyOf()",
+				"say": "我是用来检测传入的对象是否是另一个对象的原型。"
+			},
+			{
+				"id": "23",
+				"name": "propertyIsEnumerable()",
+				"say": "我是用来检测给定的属性是否可以使用for-in语句来枚举~"
+			},
+			{
+				"id": "24",
+				"name": "两个属性：数据属性和访问器属性",
+				"say": "数据属性包含一个数据值的位置，在这个位置可以读取和写入值，数据属性有4个描述其行为的特性，分别是[[Configurable]]、[[Value]]、[[Enumerable]]、[[Writable]]；访问器属性不包含数据值，[[Get]]、[[Set]]包含一对getter和setter函数~"
+			},
+			{
+				"id": "25",
+				"name":"Object.defineProperty()",
+				"say":"如果你想要修改默认的属性和访问器属性，记得必须一定要使用我哟~，我可以接收三个参数，那就是属性所在的对象、属性的名字、和一个描述符对象，你设置一个或者多个值，就可以修改对应的属性值。你在使用我的时候，数据属性中描述符除了[[Value]]之外，默认值都是false~"
+			},
+			{
+				"id": "26",
+				"name": "Object.defineProperties()",
+				"say": "通过我defineProperties()，你可以通过描述符一次定义多个属性哟~，我接收两个对象参数哟，第一对象参数是要添加和修改其属性的对象，第二个对象的属性和第一个要添加或修改的对象的属性一一对应~"
+			},
+			{
+				"id": "27",
+				"name": "Object.getOwnPropertyDescriptor()",
+				"say": "我是可以取得给定属性的描述符。我接收两个参数：第一个参数是属性所在的对象和要读取其描述符的属性名称。返回值是一个对象"
+			}
+		],
+		"es6": "Object.is()、Object.assign()如果源目标的值在[[PrimitiveValue]]中和枚举值（enumerable）是false的时候都是不能拷贝；不能拷贝null和undefined（因为他们无法转换为对象）会报错，但是当拷贝多个源目标的时候只要null和undefined不在第一个，就不会报错，因为直接跳过去了；实行的是浅拷贝，如果源目标是对象，拷贝的就是引用；同名属性会被替换；如果源目标是数组就会被数组视为同名的对象，['a','b']会被视为{0: 'a', 1: 'b'}，Object.assign([1, 2, 3], [4, 5]);//[4,5,3]"
+	},
+	{
+		"id": 3,
+		"name": "3.RegExp",
+		"content": "ECMAScript通过RegExp类型来支持正则表达式，下面创建的正则表达式  var exp=/parttern/flags，其中pattern部分可以是任何简单或者复杂的正则表达式，可以包含字符类、限定符、分组、向前查找以及反向引用。每个正则表达式都可带有一或多个标志（flags，包含g、m、i）。",
+		"function": "exec()和test()两个方法",
+		"say": "虽然我只有两个方法，但是我的功能很强大哟~你可以随心所欲的来使用，尽情的发挥你的想象力吧~",
+		"children": [
+			{
+				"id": "31",
+				"name":"实例属性",
+				"say":"哈，我的属性不是很多，伸手张开五指，我就这么5个属性，global、ignorceCase、lastIndex、multiline、source。"
+			},
+			{
+				"id": "32",
+				"name": "实例方法",
+				"say": "对呀，我就是两个方法：pattern.exec(str)，pattern.test(str)。"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "4.Date",
+		"content":"",
+		"function": "",
+		"say": "" 
+	},
+	{
+		"id": 5,
+		"name": "5.Function",
+		"content": "通过函数可以封装任意多条语句，而且可以在任何地方、任何时候调用执行。ECMAScript中的函数使用function关键字来声明，后跟一组参数以及函数体。",
+		"function": "call()、apply()、bind()。",
+		"say": "众所周知，我是有参数的哟，而且我对我的参数要求不是很高，我定义的参数个数也是很随意的，如果你在使用的时候，给我传入的参数没有对应上我定义的参数，那么没有传进来的参数的值就是undefined，你可以使用arguments来获取参数，arguments是一个类数组，其中arguments的长度是你传进来的参数的个数哟，而不是我自己定义的参数。而且我的参数是根据值来传递的，不是引用哟，这一点要牢记。",
+		"children": [
+			{
+				"id": "51",
+				"name": "call()",
+				"say": "哈哈，我可以有多个参数哟，第一个参数是函数运行的作用域，其余的参数都可以直接传递给函数。"
+			},
+			{
+				"id": "52",
+				"name": "apply()",
+				"say": "我可以接收两个参数，第一个参数是函数运行的作用域，第二个参数是传递给函数值的数组。"
+			},
+			{
+				"id": "53",
+				"name": "bind()",
+				"say": "我接收的是this作为参数，其中可以绑定当前的函数的作用域。"
+			}
+		]
+	}
+]

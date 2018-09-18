@@ -1,0 +1,38 @@
+[
+	{
+	"name": "position",
+	"value": "值：static | relative | absolute | fixed | center（css3）| page（css3）| sticky（css3）",
+	"fit": "适用于：除display属性为table-column-group | table-column之外的所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": "媒体：视觉"
+	},
+	{
+	"name": "z-index",
+	"value": "值：auto | <integer>",
+	"fit": "适用于：定位元素。即定义了position为非static的元素，css3中父级的display属性为flex时，也可以向子元素设置z-index的值。",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为<integer>时",
+	"compute": "计算值：指定值",
+	"medium": "媒体：视觉"
+	},
+	{
+	"name": "top、right、bottom、left",
+	"value": "值：auto | <length> | <percentage>",
+	"fit": "适用于：定位元素。即定义了position为非static的元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为<length> | <percentage>时",
+	"compute": "计算值：当position为static时，计算值为auto",
+	"medium": "媒体：视觉"
+	},
+	{
+	"name": "clip",
+	"value": "值：auto | <shape>，示例：clip: rect(0 auto 35px 10px);",
+	"fit": "适用于：绝对定位元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为<shape>时",
+	"compute": "计算值：指定的值",
+	"medium": "媒体：视觉"
+	}
+]

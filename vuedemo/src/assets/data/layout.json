@@ -1,0 +1,56 @@
+[
+	{
+	"name": "display",
+	"value": "值：inline | none | block | list-item | inline-block | table | inline-table | table-caption | table-cell | table-row | table-row-group | table-column | table-column-group | table-footer-group | table-header-group | run-in（css3）| box（css3）|inline-box（css3）| flexbox（css3）| inline-flexbox（css3）| flex（css3）| inline-flex（css3）一共有22个值",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算性：指定值，除浮动，绝对定位和根元素外",
+	"medium": "媒体：视觉"
+	},
+	{
+	"name": "float",
+	"value": "值：noe | left | right",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": "媒体：无"
+	},
+	{
+	"name": "clear",
+	"value": "值：noe | left | right | both",
+	"fit": "适用于：块级元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": "媒体：无"
+	},
+	{
+	"name": "visibility",
+	"value": "值：visible | hidden | collapse",
+	"fit": "适用于：块级元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": "媒体：无"
+	},
+	{
+	"name": "overflow",
+	"value": "值：visible | hidden | scroll | auto",
+	"fit": "适用于：块容器，伸缩盒容器，grid容器",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": "媒体：无"
+	},
+	{
+	"name": "overflow、overflow-x、overflow-y",
+	"value": "值：visible | hidden | scroll | auto",
+	"fit": "适用于：块容器，伸缩盒容器，grid容器",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": "媒体：无"
+	}
+]
