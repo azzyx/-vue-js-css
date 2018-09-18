@@ -1,0 +1,56 @@
+[
+	{
+	"name": "width",
+	"value": "值：auto | <length> | <percentage>",
+	"fit": "适用于：除非置换内联元素，table-row，table-row-group之外的所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为<length> | <percentage> 时",
+	"compute": "计算性：指定值",
+	"medium": ""
+	},
+	{
+	"name": "min-width",
+	"value": "值：0 | <length> | <percentage>",
+	"fit": "适用于：除非置换内联元素，table-row，table-row-group之外的所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为<length> | <percentage>时",
+	"compute": "计算性：指定值",
+	"medium": ""
+	},
+	{
+	"name": "max-width",
+	"value": "值：noe | <length> | <percentage>",
+	"fit": "适用于：除非置换内联元素，table-row，table-row-group之外的所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为<length> | <percentage>时",
+	"compute": "计算性：指定值",
+	"medium": ""
+	},
+	{
+	"name": "height",
+	"value": "值：auto | <length> | <percentage>",
+	"fit": "适用于：除非置换内联元素，table-row，table-row-group之外的所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为<length> | <percentage>时",
+	"compute": "计算性：指定值",
+	"medium": ""
+	},
+	{
+	"name": "min-height",
+	"value": "值：0 | <length> | <percentage>",
+	"fit": "适用于：除非置换内联元素，table-row，table-row-group之外的所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为 <length> | <percentage>",
+	"compute": "计算性：指定值",
+	"medium": ""
+	},
+	{
+	"name": "max-height",
+	"value": "值：none | <percentage> | <length>",
+	"fit": "适用于：除非置换内联元素，table-row，table-row-group之外的所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：当值为 <length> | <percentage>",
+	"compute": "计算性：指定值",
+	"medium": ""
+	}
+]

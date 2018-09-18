@@ -13,6 +13,7 @@ import Es6NewType from '@/components/homeChild/Es6NewType'
 
 import Pos from '@/components/cssChild/Position'
 import Layout from '@/components/cssChild/Layout'
+import Dim from '@/components/cssChild/Dimension'
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -65,6 +66,11 @@ export default new VueRouter({
           path: '/layout',
           name: "Layout",
           component: Layout
+        },
+        {
+          path: '/dim',
+          name: 'Dim',
+          component: Dim
         }
       ]
     },

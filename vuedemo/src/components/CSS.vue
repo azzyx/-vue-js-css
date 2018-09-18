@@ -17,13 +17,15 @@
 	import echart from 'echarts'
 	import position from './cssChild/Position'
 	import layout from './cssChild/Layout'
+	import dim from './cssChild/Dimension'
 	export default {
 		name: 'CSS',
 		data() {
 			return {
 				props: [
 					{"path": "/pos", "name": "定位"},
-					{"path": "/layout", "name": "布局"}
+					{"path": "/layout", "name": "布局"},
+					{"path": "/dim", "name": "尺寸"}
 				]
 			}
 			/*return {
