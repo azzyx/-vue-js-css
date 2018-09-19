@@ -1,0 +1,83 @@
+[
+	{
+	"name": "background",
+	"value": "值：每个独立属性 <bg-image> || <position> [/<bg-size>] ? || <repeat-style> || <attachment> || <box> || <box>",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画性：看每个独立属性",
+	"compute": "计算值：看每个独立属性",
+	"medium": ""
+	},
+	{
+	"name": "background-color",
+	"value": "值：transparent <color>",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：是",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "background-image",
+	"value": "值：none | <image>",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "background-repeat",
+	"value": "值：repeat | repeat-x | repeat-y | [repeat | no-repeat | space | round] {1, 2}",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "background-attachment",
+	"value": "值：scroll | fixed | local",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "background-position",
+	"value": "值：0% 0% | <percentage> | <length> | center | left | right | top | bottom",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "background-origin",
+	"value": "值：padding-box | border-box | content-box",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "background-clip",
+	"value": "值：border-box | padding-box | content-box | text",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "background-size",
+	"value": "值：[auto | <length> | <percentage> ] {1, 2} | cover | contain ",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：是，除非使用值为关键字",
+	"compute": "计算值：指定值",
+	"medium": ""
+	}
+]

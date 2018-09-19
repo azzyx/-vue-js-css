@@ -14,6 +14,11 @@ import Es6NewType from '@/components/homeChild/Es6NewType'
 import Pos from '@/components/cssChild/Position'
 import Layout from '@/components/cssChild/Layout'
 import Dim from '@/components/cssChild/Dimension'
+import Mar from '@/components/cssChild/Margin'
+import Pad from '@/components/cssChild/Padding'
+import Bg from '@/components/cssChild/Background'
+import Color from '@/components/cssChild/Color'
+
 Vue.use(VueRouter)
 
 export default new VueRouter({
@@ -71,6 +76,26 @@ export default new VueRouter({
           path: '/dim',
           name: 'Dim',
           component: Dim
+        },
+        {
+          path: '/mar',
+          name: "Mar",
+          component: Mar
+        },
+        {
+          path: '/pad',
+          name: 'Pad',
+          component: Pad
+        },
+        {
+          path: '/bg',
+          name: 'Bg',
+          component: Bg
+        },
+        {
+          path: '/color',
+          name: 'Color',
+          component: Color
         }
       ]
     },

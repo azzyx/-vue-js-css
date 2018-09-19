@@ -1,0 +1,29 @@
+[
+	{
+	"name": "margin",
+	"value": "值：看每个独立属性[ <length> ]| <percentage> | auto {1, 4}",
+	"fit": "适用于：除非table | inline-table | table-caption的表格类元素之外",
+	"inherit": "继承性：无",
+	"animation": "",
+	"compute": "计算性：看每个独立属性",
+	"medium": ""
+	},
+	{
+	"name": "margin-top，margin-bottom",
+	"value": "值：0 <length> | <percentage> | auto",
+	"fit": "适用于：所有元素，除非 table | inline-table | table-caption的表格类元素之外和非代替行内元素之外",
+	"inherit": "继承性：无",
+	"animation": "动画：是",
+	"compute": "计算性：指定的百分比、绝对长度或auto",
+	"medium": ""
+	},
+	{
+	"name": "margin-right，margin-left",
+	"value": "值：0 <length> | <percentage> | auto",
+	"fit": "适用于：除非table | inline-talbe | table-caption 的表格类元素之外",
+	"inherit": "继承性：无",
+	"animation": "动画：是",
+	"compute": "计算性：指定的百分比、绝对长度或auto",
+	"medium": ""
+	}
+]

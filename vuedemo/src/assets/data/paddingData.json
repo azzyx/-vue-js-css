@@ -1,0 +1,29 @@
+[
+	{
+	"name": "padding",
+	"value": "值：看每个独立属性[ <length> ]| <percentage> | {1, 4}",
+	"fit": "适用于：除table-row-group | table-header-group | table-footer-group | table-column-group | table-row外",
+	"inherit": "继承性：无",
+	"animation": "",
+	"compute": "计算性：看每个独立属性",
+	"medium": ""
+	},
+	{
+	"name": "padding-top，padding-bottom",
+	"value": "值：0 <length> | <percentage>",
+	"fit": "适用于：所有元素，除table-row-group | table-header-group | table-footer-group | table-column-group | table-row以及非替代行内元素外，",
+	"inherit": "继承性：无",
+	"animation": "动画：是",
+	"compute": "计算性：<length>",
+	"medium": ""
+	},
+	{
+	"name": "padding-right，padding-left",
+	"value": "值：0 <length> | <percentage>",
+	"fit": "适用于：除table-row-group | table-header-group | table-footer-group | table-column-group | table-row",
+	"inherit": "继承性：无",
+	"animation": "动画：是",
+	"compute": "计算性：<length>",
+	"medium": ""
+	}
+]

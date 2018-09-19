@@ -1,0 +1,20 @@
+[
+	{
+	"name": "color",
+	"value": "值：由user agent 决定",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画性：是",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "opacity",
+	"value": "值：1 <number>",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：无",
+	"animation": "动画：是",
+	"compute": "计算值：指定值",
+	"medium": ""
+	}
+]

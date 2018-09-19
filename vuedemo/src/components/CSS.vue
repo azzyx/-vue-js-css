@@ -18,6 +18,10 @@
 	import position from './cssChild/Position'
 	import layout from './cssChild/Layout'
 	import dim from './cssChild/Dimension'
+	import mar from './cssChild/Margin'
+	import pad from './cssChild/Padding'
+	import bg from './cssChild/Background'
+	import color from './cssChild/Color'
 	export default {
 		name: 'CSS',
 		data() {
@@ -25,7 +29,11 @@
 				props: [
 					{"path": "/pos", "name": "定位"},
 					{"path": "/layout", "name": "布局"},
-					{"path": "/dim", "name": "尺寸"}
+					{"path": "/dim", "name": "尺寸"},
+					{"path": "/mar", "name": "外补白"},
+					{"path": "/pad", "name": "内补白"},
+					{"path": "/bg", "name": "背景"},
+					{"path": "/color", "name": "颜色"}
 				]
 			}
 			/*return {
@@ -55,7 +63,12 @@
 		},
 		components: {
 			position,
-			layout
+			layout,
+			dim,
+			mar,
+			pad,
+			bg,
+			color
 		}
 	}
 </script>
