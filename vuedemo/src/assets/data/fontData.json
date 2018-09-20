@@ -1,0 +1,56 @@
+[
+	{
+	"name": "font",
+	"value": "值：看独立属性自身 <'font-style'> | <'font-variant'> | <'font-size'> | <'line-height'> | <'font-family'> | caption | menu | icon | message-box | small-caption | status-bar",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：看独立属性自身",
+	"compute": "计算值：看独立属性自身",
+	"medium": ""
+	},
+	{
+	"name": "font-style",
+	"value": "值：normal | italic | oblique",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": ""
+	},
+	{
+	"name": "font-variant",
+	"value": "值：normal | small-caps",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "font-weight",
+	"value": "值：normal | bold | bolder | lighter | <integer>",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：是",
+	"compute": "计算值：数字重量值",
+	"medium": ""
+	},
+	{
+	"name": "font-size",
+	"value": "值：medium | xx-smaller | x-small | small | large | x-large | xx-large | smaller | larger",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：是",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "font-family",
+	"value": "值：由user agent 决定",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": ""
+	}
+]

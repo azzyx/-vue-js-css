@@ -1,0 +1,20 @@
+[
+	{
+	"name": "text-transform",
+	"value": "值：none | capitalize | uppercase | lowercase | full-width",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：否",
+	"compute": "计算值：指定值",
+	"medium": ""
+	},
+	{
+	"name": "white-space",
+	"value": "值：normal | pre | nowrap | pre-wrap | pre-line",
+	"fit": "适用于：所有元素",
+	"inherit": "继承性：有",
+	"animation": "动画：否",
+	"compute": "计算性：指定值",
+	"medium": ""
+	}
+]

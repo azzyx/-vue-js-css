@@ -18,6 +18,7 @@ import Mar from '@/components/cssChild/Margin'
 import Pad from '@/components/cssChild/Padding'
 import Bg from '@/components/cssChild/Background'
 import Color from '@/components/cssChild/Color'
+import Font from '@/components/cssChild/Font'
 
 Vue.use(VueRouter)
 
@@ -96,6 +97,11 @@ export default new VueRouter({
           path: '/color',
           name: 'Color',
           component: Color
+        },
+        {
+          path: '/font',
+          name: 'Font',
+          component: Font
         }
       ]
     },

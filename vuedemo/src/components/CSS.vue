@@ -22,6 +22,7 @@
 	import pad from './cssChild/Padding'
 	import bg from './cssChild/Background'
 	import color from './cssChild/Color'
+	import font from './cssChild/Font'
 	export default {
 		name: 'CSS',
 		data() {
@@ -33,7 +34,8 @@
 					{"path": "/mar", "name": "外补白"},
 					{"path": "/pad", "name": "内补白"},
 					{"path": "/bg", "name": "背景"},
-					{"path": "/color", "name": "颜色"}
+					{"path": "/color", "name": "颜色"},
+					{"path": "/font", "name": "字体"}
 				]
 			}
 			/*return {
@@ -68,7 +70,8 @@
 			mar,
 			pad,
 			bg,
-			color
+			color,
+			font
 		}
 	}
 </script>
